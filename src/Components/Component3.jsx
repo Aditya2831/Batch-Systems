@@ -13,7 +13,7 @@ const Component3 = () => {
           <h1 className="text-4xl font-extrabold">Why Choose UIFry?</h1>
         </div>
         <h1 className="text-2xl font-extrabold">Clever Notifications</h1>
-        <p className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
+        <p className='font-light line-clamp-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
       </div>
 
          {/* Subcomponent 2 */}

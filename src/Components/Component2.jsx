@@ -3,7 +3,7 @@ import { iphone, spiral, redcolor, verticalPhone } from '../images';
 
 const Component2 = () => {
   return (
-    <div className="flex flex-row h-screen">
+    <div className="flex flex-row h-screen mt-16">
       {/* Subcomponent 1 */}
       <div className="relative w-1/2 h-full">
         <img src={verticalPhone} alt="iPhone" className="absolute top-0 left-0 w-1/2 h-auto ml-40" style={{ zIndex: 3, bottom: '20px' }} />
