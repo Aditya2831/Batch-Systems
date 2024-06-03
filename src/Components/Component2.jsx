@@ -14,21 +14,21 @@ const Component2 = () => {
       {/* Subcomponent 2 */}
       <div className="flex flex-col text-left p-4 w-1/2 h-full">
         <div className="flex flex-col mb-4">
-          <h2 className="text-lg font-bold">FEATURES</h2>
-          <h1 className="text-2xl font-bold">Uifry Premium</h1>
+          <h2 className="text-lg  tracking-wider text-red-500">FEATURES</h2>
+          <h1 className="text-4xl font-extrabold">Uifry Premium</h1>
         </div>
         <ul className="space-y-4">
           <li className="space-y-2">
             <h3 className="text-xl font-semibold">Budgeting Intervals</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
+            <p className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
           </li>
           <li className="space-y-2">
             <h3 className="text-xl font-semibold">Budgeting Intervals</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
+            <p className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
           </li>
           <li className="space-y-2">
             <h3 className="text-xl font-semibold">Budgeting Intervals</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
+            <p className='font-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices urna nec gravida. Aliquam lobortis urna ut purus dignissim dictum.</p>
           </li>
         </ul>
       </div>
