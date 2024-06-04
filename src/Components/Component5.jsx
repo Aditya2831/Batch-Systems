@@ -5,7 +5,7 @@ const Component5 = () => {
   return (
     <>
     <div className='flex flex-col text-center mb-8'>
-     <h2>TESTIMONIAL</h2>
+     <h2 className='font-semibold'>TESTIMONIAL</h2>
      <h1 className="text-3xl font-extrabold">
   <span style={{ whiteSpace: 'nowrap' }}>What Our Users</span> <br /> 
   <span style={{ whiteSpace: 'nowrap' }}>Say About Us?</span>

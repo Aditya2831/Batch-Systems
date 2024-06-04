@@ -11,13 +11,19 @@ const Component1 = () => {
         
         <div className='flex flex-col ml-20 gap-5'>
           <div>
-            <h1 className='text-3xl font-semibold'>Make The Best</h1>
-            <h1 className='text-3xl font-semibold'>Final Decisions</h1>
+            <h1 className='text-3xl font-semibold font-serif'>Make The Best</h1>
+            <h1 className='text-3xl font-semibold font-serif'>Final Decisions</h1>
           </div>
 
           <div>
           <p className='line-clamp-4'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus ultrices
+          </p>
+          <p className='line-clamp-4'>
+           Etiam cursus ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <p className='line-clamp-4'>
+          dolor sit amet, consectetur adipiscing elit. cursus ultrices Etiam 
           </p>
           </div>
 
@@ -43,7 +49,7 @@ const Component1 = () => {
           </div>
 
           <div>
-          <img src={V} alt="" />
+          <img src={V} alt="" className=''/>
         </div>
 
         </div>

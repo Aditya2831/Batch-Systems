@@ -20,7 +20,7 @@ const Component3 = () => {
       <div className="relative w-1/2 h-full">
         <img src={verticalPhone2} alt="iPhone" className="absolute top-0 left-0 w-1/2 h-auto ml-40" style={{ zIndex: 3, bottom: '20px' }} />
         <img src={spiral} alt="Spiral" className="absolute top-0 left-0 w-3/4 h-auto" style={{ zIndex: 2 }} />
-        <img src={redcolor} alt="Red Color" className="absolute top-0 left-0 w-1/2 h-auto" style={{ zIndex: 1 }} />
+        <img src={redcolor} alt="Red Color" className="absolute top-0 left-6 w-2/2 h-auto" style={{ zIndex: 1 }} />
       </div>
     </div>
   );
