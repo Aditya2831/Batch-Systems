@@ -4,12 +4,17 @@ import spiral from "./assets/Gallery/Group-35887.png"
 import redcolor from "./assets/Gallery/Group-35897.png"
 import verticalPhone from "./assets/Gallery/iPhone-13-Pro-Front-(1).png"
 import verticalPhone2 from "./assets/Gallery/iPhone-13-Pro-Front-(2).png"
+import V from "./assets/Gallery/V.png"
+import iphoneAligned from "./assets/Gallery/iphone-aligned2.png"
 
 export{
     iphone,
     spiral,
     redcolor,
     verticalPhone,
-    verticalPhone2
+    verticalPhone2,
+    V,
+    iphoneAligned
 }
 
+// iphone and iphonealigned

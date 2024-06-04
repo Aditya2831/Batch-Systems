@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion"
 
 const Component7 = () => {
   return (
@@ -37,7 +38,15 @@ const Component7 = () => {
                 <h2>Stay Up To date</h2>
                 <div className='flex gap-5'>
                     <input type="email" name="" id="" className='border-2 border-gray-500 text-center' placeholder='Enter your email'/>
-                    <button type="submit" className='bg-black text-white pl-5 pr-5 pt-3 pb-3 rounded-md'>Subscribe</button>
+                    <motion.button
+            type="submit"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: 'spring', stiffness: 400, damping: 17 }}
+            className="text-white font-chakraPetch bg-gradient-to-r from-slate-900 to-indigo-900 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] shadow-blue-800/90 dark:shadow-lg dark:shadow-blue-800/40 font-medium rounded-lg text-sm px-3 py-2 text-center me-2 mb-2 w-[150px]  border-black h-[50px] mt-3"
+          >
+            SUBSCRIBE
+          </motion.button>
                 </div>
             </div>
         </div>
